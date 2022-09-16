@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col} from "react-bootstrap";
 
 import { ArrowRightCircle} from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/coder.svg";
 export const Banner = () => {
 
   const [loopNumber, setLoopNumber] = useState(0);
@@ -50,7 +50,7 @@ export const Banner = () => {
             <span className="tagline">Mihajlo Micic </span>
             <h1>{" "}<span classname ="wrap">{text}</span></h1>
             <p>Lorem ipsum blablabla about myself, I am </p>
-            <button onClick={() => console.log('connect')}>Connect with me! <ArrowRightCircle size={25}/></button>
+            <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Image" />

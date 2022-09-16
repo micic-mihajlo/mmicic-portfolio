@@ -4,6 +4,8 @@ import { ProjectCard } from "./ProjectCard.js";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import proimg from "../assets/img/proj-img.png";
+import unityProject1 from "../assets/img/unityProject1.png";
+import 'animate.css';
 
 export const Projects = () => {
   const projects = [
@@ -11,7 +13,7 @@ export const Projects = () => {
       title: "Project 1",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
-      imgUrl: proimg,
+      imgUrl: unityProject1,
     },
     {
       title: "Project 2",
