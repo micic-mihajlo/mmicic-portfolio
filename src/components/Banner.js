@@ -50,7 +50,7 @@ export const Banner = () => {
             <span className="tagline">Mihajlo Micic </span>
             <h1>{" "}<span classname ="wrap">{text}</span></h1>
             <p>Lorem ipsum blablabla about myself, I am </p>
-            <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+            {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Image" />
