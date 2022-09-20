@@ -18,14 +18,14 @@ export const Projects = () => {
     {
       title: "Project 2",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
+        "Coming Soon.",
       imgUrl: proimg,
     },
   
     {
       title: "Project 3",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
+        "Coming Soon.",
       imgUrl: proimg,
     },
   ];
@@ -33,19 +33,19 @@ export const Projects = () => {
     {
       title: "Project 4",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
+        "Coming Soon.",
       imgUrl: proimg,
     },
     {
       title: "Project 5",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
+        "Coming Soon.",
       imgUrl: proimg,
     },
     {
       title: "Project 6",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
+        "Coming Soon.",
       imgUrl: proimg,
     },
   ];
