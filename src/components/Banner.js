@@ -49,7 +49,10 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Mihajlo Micic </span>
             <h1>{" "}<span classname ="wrap">{text}</span></h1>
-            <p>Lorem ipsum blablabla about myself, I am </p>
+            <p>Hello, I am Mihajlo, 3rd year student at the University of Waterloo.
+              I am a software developer with a passion for GIS and data analysis, and this is my portfolio.<br></br><br></br>
+              P.S. I am currently looking for a co-op position for the Winter 2023 term.
+            </p>
             {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
           </Col>
           <Col xs={12} md={6} xl={5}>
