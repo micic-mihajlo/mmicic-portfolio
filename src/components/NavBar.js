@@ -44,7 +44,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#">
             <img src={logo} alt="Logo" width="100" height="100"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
