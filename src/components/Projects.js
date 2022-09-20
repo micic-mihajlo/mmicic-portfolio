@@ -10,9 +10,9 @@ import 'animate.css';
 export const Projects = () => {
   const projectsTab1 = [
     {
-      title: "Project 1",
+      title: "Heroic Showdown",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
+        "2D Turn-Based Role-Playing Game for 2 players that emulates the battle between “heroes” that are inspired by World of Warcraft classes. <br>Built in Unity Game Engine using C#. This project made me further expand my knowledge about Object-Oriented Design as it was crucial for the development of the game. <br> Character models and assets were constructed in Adobe Photoshop",
       imgUrl: unityProject1,
     },
     {
