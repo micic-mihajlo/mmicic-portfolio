@@ -8,7 +8,7 @@ import unityProject1 from "../assets/img/unityProject1.png";
 import 'animate.css';
 
 export const Projects = () => {
-  const projects = [
+  const projectsTab1 = [
     {
       title: "Project 1",
       description:
@@ -21,12 +21,15 @@ export const Projects = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
       imgUrl: proimg,
     },
+  
     {
       title: "Project 3",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eu nunc.",
       imgUrl: proimg,
     },
+  ];
+  const projectsTab2 = [
     {
       title: "Project 4",
       description:
@@ -72,7 +75,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          projectsTab1.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -85,6 +88,18 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <Row>
+                        {
+                          projectsTab2.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
