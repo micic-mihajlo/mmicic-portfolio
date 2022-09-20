@@ -12,7 +12,7 @@ export const Projects = () => {
     {
       title: "Heroic Showdown",
       description:
-        "2D Turn-Based Role-Playing Game for 2 players that emulates the battle between “heroes” that are inspired by World of Warcraft classes. <br>Built in Unity Game Engine using C#. This project made me further expand my knowledge about Object-Oriented Design as it was crucial for the development of the game. <br> Character models and assets were constructed in Adobe Photoshop",
+        "2D Turn-Based Role-Playing Game for 2 players that emulates the battle between “heroes” that are inspired by World of Warcraft classes. Built in Unity Game Engine using C#. This project made me further expand my knowledge about Object-Oriented Design as it was crucial for the development of the game. Character models and assets were constructed in Adobe Photoshop",
       imgUrl: unityProject1,
     },
     {
