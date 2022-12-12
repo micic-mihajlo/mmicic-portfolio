@@ -51,6 +51,7 @@ export const Banner = () => {
             <h1>{" "}<span classname ="wrap">{text}</span></h1>
             <p>Hello, I am Mihajlo, 3rd year student at the University of Waterloo.
               I am a software developer with a passion for GIS and data analysis, and this is my portfolio.<br></br><br></br>
+              <br></br><br></br>Winter 2023 Co-op Term: Data Analyst @ York Region.<br></br>
               P.S. I am currently looking for a co-op position for the Summer 2023 term.
             </p>
             {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
