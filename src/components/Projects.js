@@ -16,9 +16,9 @@ export const Projects = () => {
       imgUrl: unityProject1,
     },
     {
-      title: "Project 2",
+      title: "FIFA Ultimate Team Builder",
       description:
-        "Coming Soon.",
+        "Program that generates the best FIFA 23 Ultimate Team squad within the proposed budget. Utilizing the genetic algorithm that is applied to the extensive dataset about player performances, I am able to find the best squads for my Ultimate Team",
       imgUrl: proimg,
     },
   
