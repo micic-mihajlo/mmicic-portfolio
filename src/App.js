@@ -8,6 +8,7 @@ import { Experience } from './components/Experience.js';
 import { Contact } from './components/Contact.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from './components/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
+      <SpeedInsights/>
     </div>
   );
 }
