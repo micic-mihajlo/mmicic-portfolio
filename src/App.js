@@ -1,13 +1,13 @@
-
+// src/App.js
 import './App.css';
 import { NavBar } from './components/NavBar.js';
 import { Banner } from './components/Banner.js';
 import { Skills } from './components/Skills.js';
 import { Projects } from './components/Projects.js';
+import { Experience } from './components/Experience.js';
 import { Contact } from './components/Contact.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from './components/Footer';
-
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Experience />
       <Contact />
       <Footer />
     </div>

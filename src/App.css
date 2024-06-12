@@ -240,7 +240,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url("./assets/img/bg-12.jpg");
+  background-image: url("./assets/img/bg-dark.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -627,3 +627,70 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+
+/* Experience Section */
+.experience {
+  padding: 120px 0;
+  position: relative;
+  background-color: #121212;
+  color: #fff;
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* Vertical Timeline Styles */
+.vertical-timeline-element-content {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid #917018b2;
+}
+
+.vertical-timeline-element-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.vertical-timeline-element ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.vertical-timeline-element ul li {
+  margin-bottom: 10px;
+}
+
+/* Timeline icons */
+.vertical-timeline-element-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.vertical-timeline-element-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .vertical-timeline-element-content {
+    text-align: left;
+  }
+
+  .vertical-timeline-element-content-arrow {
+    display: none;
+  }
+}
