@@ -77,7 +77,7 @@ export default function ContactSection() {
 
               <div className="flex flex-col gap-3">
                 <Button className="justify-start gap-3 bg-primary hover:bg-primary/90" asChild>
-                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/Mihajlo-Micic-Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="w-4 h-4" />
                     Download Resume
                   </a>

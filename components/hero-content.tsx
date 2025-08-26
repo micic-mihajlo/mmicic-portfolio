@@ -41,7 +41,7 @@ export default function HeroContent() {
 
         <div className="flex items-center gap-4 flex-wrap">
           <button
-            onClick={() => window.open("/Mihajlo_Micic_Resume.pdf", "_blank")}
+            onClick={() => window.open("/Mihajlo-Micic-Resume.pdf", "_blank")}
             className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-sm transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer"
           >
             View Resume
