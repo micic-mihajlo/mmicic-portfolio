@@ -1,0 +1,139 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Updated color tokens to navy blue developer theme */
+  --background: #f1f5f9; /* Light gray for the overall background */
+  --foreground: #1e293b; /* Dark slate for text */
+  --card: #ffffff; /* White for card backgrounds */
+  --card-foreground: #1e293b; /* Dark slate for card text */
+  --popover: #ffffff; /* White for popover backgrounds */
+  --popover-foreground: #1e293b; /* Dark slate for popover text */
+  --primary: #1e40af; /* Navy blue for primary buttons and highlights */
+  --primary-foreground: #ffffff; /* White for text on primary buttons */
+  --secondary: #3b82f6; /* Blue for secondary accents */
+  --secondary-foreground: #ffffff; /* White for text on secondary elements */
+  --muted: #f1f5f9; /* Light gray for muted text */
+  --muted-foreground: #64748b; /* Slate for muted text */
+  --accent: #2563eb; /* Blue for accents */
+  --accent-foreground: #ffffff; /* White for text on accent elements */
+  --destructive: #dc2626; /* Red for destructive actions */
+  --destructive-foreground: #ffffff; /* White for text on destructive actions */
+  --border: #e2e8f0; /* Light slate for borders */
+  --input: #ffffff; /* White for input fields */
+  --ring: rgba(30, 64, 175, 0.5); /* Semi-transparent navy for focus rings */
+  --chart-1: #1e40af; /* Navy for chart color 1 */
+  --chart-2: #2563eb; /* Blue for chart color 2 */
+  --chart-3: #3b82f6; /* Light blue for chart color 3 */
+  --chart-4: #60a5fa; /* Lighter blue for chart color 4 */
+  --chart-5: #93c5fd; /* Lightest blue for chart color 5 */
+  --radius: 0.5rem; /* Rounded corners for cards and buttons */
+  --sidebar: #ffffff; /* White for sidebar background */
+  --sidebar-foreground: #1e293b; /* Dark slate for sidebar text */
+  --sidebar-primary: #1e40af; /* Navy for sidebar primary actions */
+  --sidebar-primary-foreground: #ffffff; /* White for sidebar primary text */
+  --sidebar-accent: #2563eb; /* Blue for sidebar accents */
+  --sidebar-accent-foreground: #ffffff; /* White for sidebar accent text */
+  --sidebar-border: #e2e8f0; /* Light slate for sidebar borders */
+  --sidebar-ring: rgba(30, 64, 175, 0.5); /* Semi-transparent navy for sidebar focus rings */
+  --font-instrument-serif: "Instrument Serif", serif;
+  --font-figtree: "Figtree", sans-serif;
+}
+
+.dark {
+  /* Updated dark mode colors to navy blue theme */
+  --background: #0f172a; /* Dark slate background */
+  --foreground: #f1f5f9; /* Light gray text */
+  --card: #1e293b; /* Dark slate for cards */
+  --card-foreground: #f1f5f9; /* Light gray card text */
+  --popover: #1e293b; /* Dark slate for popovers */
+  --popover-foreground: #f1f5f9; /* Light gray popover text */
+  --primary: #3b82f6; /* Blue for primary */
+  --primary-foreground: #0f172a; /* Dark text on blue */
+  --secondary: #475569; /* Slate for secondary */
+  --secondary-foreground: #f1f5f9; /* Light text on secondary */
+  --muted: #334155; /* Slate for muted */
+  --muted-foreground: #94a3b8; /* Light slate for muted text */
+  --accent: #2563eb; /* Blue for accents */
+  --accent-foreground: #f1f5f9; /* Light text on accent */
+  --destructive: #dc2626; /* Red for destructive */
+  --destructive-foreground: #f1f5f9; /* Light text on destructive */
+  --border: #475569; /* Slate borders */
+  --input: #334155; /* Slate inputs */
+  --ring: rgba(59, 130, 246, 0.5); /* Semi-transparent blue rings */
+  --chart-1: #3b82f6;
+  --chart-2: #1e40af;
+  --chart-3: #60a5fa;
+  --chart-4: #2563eb;
+  --chart-5: #93c5fd;
+  --sidebar: #1e293b;
+  --sidebar-foreground: #f1f5f9;
+  --sidebar-primary: #3b82f6;
+  --sidebar-primary-foreground: #0f172a;
+  --sidebar-accent: #475569;
+  --sidebar-accent-foreground: #f1f5f9;
+  --sidebar-border: #475569;
+  --sidebar-ring: rgba(59, 130, 246, 0.5);
+  --font-instrument-serif: "Instrument Serif", serif;
+  --font-figtree: "Figtree", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --font-instrument-serif: var(--font-instrument-serif);
+  /* Added Figtree font to theme configuration */
+  --font-sans: var(--font-figtree);
+  --font-figtree: var(--font-figtree);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Set Figtree as the default font family for the entire website */
+    font-family: var(--font-figtree);
+  }
+}
+
+.instrument {
+  font-family: var(--font-instrument-serif);
+}
