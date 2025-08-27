@@ -95,11 +95,7 @@ export default function ContactSection() {
           </Card>
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-white/50 text-sm">
-            Built with Next.js, TypeScript, and Tailwind CSS • Powered by Paper Design Shaders
-          </p>
-        </div>
+
       </div>
     </section>
   )
